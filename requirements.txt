@@ -1,0 +1,16 @@
+# requirements.txt
+# Core packages
+torch==2.7.0                # Versione stabile per NLP
+transformers==4.39.3        # Compatibile con torch 2.2.x
+datasets==2.19.1            # Version testata con transformers 4.39.x
+semantic-chunkers    # Versione specifica richiesta
+
+# Support libraries
+numpy==1.26.4
+pandas==2.2.1
+tqdm==4.66.2
+python-dotenv==1.0.1
+
+# Hugging Face specific
+huggingface-hub==0.21.4
+sentence-transformers==2.7.0
