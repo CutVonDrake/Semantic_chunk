@@ -1,3 +1,8 @@
+### model_name="sentence-transformers/LaBSE" 
+### Method: "Standard deviation"
+### 5 chunks
+
+
 ### Chunk 1
 
 ## EcoTech Solutions S.r.l. per GreenLife S.p.A. Via dell'Innovazione 42, 20121 Milano (MI), Italia

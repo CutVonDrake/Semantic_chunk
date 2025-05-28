@@ -1,4 +1,6 @@
 ### model_name="intfloat/multilingual-e5-large"
+### Method: "Percentile"
+### 13 chunks
 
 
 ### Chunk 1

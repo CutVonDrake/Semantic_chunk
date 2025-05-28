@@ -1,4 +1,6 @@
-### model_name="sentence-transformers/LaBSE"
+### model_name="sentence-transformers/LaBSE" 
+### Method: "Percentile"
+### 13 chunks
 
 
 ### Chunk 1

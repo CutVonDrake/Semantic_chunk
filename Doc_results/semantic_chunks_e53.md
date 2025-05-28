@@ -1,3 +1,8 @@
+### model_name="intfloat/multilingual-e5-large"
+### Method: "Interquartile"
+### 14 chunks
+
+
 ### Chunk 1
 
 ## EcoTech Solutions S.r.l. per GreenLife S.p.A. Via dell'Innovazione 42, 20121 Milano (MI), Italia
