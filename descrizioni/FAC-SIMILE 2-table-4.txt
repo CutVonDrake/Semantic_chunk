@@ -1,0 +1,35 @@
+
+The image displays a table with two columns labeled "Attività" (Activities) and "Costo [€]" (Cost [€]). The table is structured as follows:
+
+| Attività | Costo [€] |
+|----------|-----------|
+| 1        | 32,000 €   |
+| 2        | 24,000 €   |
+| 3        | 22,000 €   |
+
+### Detailed Description:
+
+- **Title**: The table does not have a title. It is simply labeled "Attività" and "Costo [€]".
+- **Columns**:
+  - **Attività (Activities)**: This column lists the different activities or tasks being considered. In this case, there are three activities: 1, 2, and 3.
+  - **Costo [€] (Cost [€])**: This column indicates the cost associated with each activity in euros. The costs for activities 1, 2, and 3 are listed as follows:
+    - Activity 1: €32,000
+    - Activity 2: €24,000
+    - Activity 3: €22,000
+
+### Analysis:
+
+The table provides a clear comparison of the costs associated with three different activities. Here is an analysis based on the data presented:
+
+1. **Activity 1**: The cost for this activity is €32,000. This suggests that it might be one of the more expensive activities among those listed.
+2. **Activity 2**: The cost for this activity is €24,000. This indicates a moderate level of expense compared to Activity 1 but lower than Activity 3.
+3. **Activity 3**: The cost for this activity is €22,000. This suggests that it has the lowest cost among the three activities listed.
+
+### Conclusion:
+
+From the data presented in the table, we can infer several things:
+- Activity 1 is the most expensive.
+- Activity 3 is the least expensive.
+- The costs for Activities 2 and 1 are intermediate between each other.
+
+This information could be useful for budgeting, resource allocation, or decision-making processes where understanding the financial implications of different activities is crucial.
