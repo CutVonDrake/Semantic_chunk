@@ -1,0 +1,8 @@
+--index-url https://download.pytorch.org/whl/cu118
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+#docling==2.39.0
+# Python version (gestiscila fuori dal file requirements): 3.11.13
+
