@@ -1,0 +1,34 @@
+
+The image is a bar chart titled "Confronto KPI prima e dopo l'implementazione." This translates to "Comparison of Key Performance Indicators (KPIs) before and after implementation." The x-axis represents different categories, while the y-axis represents the values of these KPIs.
+
+The chart consists of two sets of bars, one for each category on the x-axis:
+
+1. **Before Implementation**
+   - **Makespan medio**: This bar is the tallest in the chart, indicating that it has the highest value among all categories before implementation. The exact numerical value is not provided but can be inferred to be around 200.
+   - **Cambi formato**: This bar is also quite high, with a value slightly above 150.
+   - **Varianza lead time**: This bar is moderately tall, indicating a value of approximately 80.
+   - **Puntualità consegne**: This bar has the lowest value among all categories before implementation, around 60.
+
+2. **After Implementation**
+   - **Makespan medio**: The bar for this category is shorter than the "Before Implementation" bar, indicating a decrease in its value. It appears to be around 180.
+   - **Cambi formato**: This bar shows a slight increase compared to the "Before Implementation" bar, with a value slightly above 160.
+   - **Varianza lead time**: The bar for this category is also shorter than the "Before Implementation" bar, indicating a decrease in its value. It appears to be around 75.
+   - **Puntualità consegne**: This bar shows an increase compared to the "Before Implementation" bar, with a value slightly above 80.
+
+The chart uses two colors: orange and red, to differentiate between the values before and after implementation for each category. The background of the chart is white, which helps in clearly distinguishing the bars.
+
+### Analysis
+
+From the data presented in this bar chart, we can observe several trends:
+
+1. **Makespan medio**: This KPI shows a decrease from around 200 to approximately 180 after implementation. This suggests that there was an improvement in the average time taken for tasks or processes before and after the implementation.
+
+2. **Cambi formato**: The value of this KPI increased slightly from around 150 to approximately 160, indicating a minor improvement in the format changes made during the implementation period.
+
+3. **Varianza lead time**: This KPI shows a decrease from around 80 to approximately 75 after implementation, suggesting that there was an improvement in reducing the variability or spread of lead times.
+
+4. **Puntualità consegne**: The value for this KPI increased slightly from around 60 to approximately 80, indicating a minor improvement in delivery punctuality.
+
+### Conclusion
+
+The bar chart effectively illustrates the impact of implementation on various key performance indicators (KPIs). It highlights that while some categories showed slight improvements after implementation, others experienced more significant reductions. This information can be valuable for organizations looking to assess and improve their processes and outcomes post-implementation.

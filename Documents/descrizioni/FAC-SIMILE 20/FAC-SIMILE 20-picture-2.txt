@@ -1,0 +1,40 @@
+
+The image is a bar chart divided into two sections. Each section contains three bars, each representing different metrics related to dispatching rules and their impact on various aspects of dispatching processes. The x-axis represents the different dispatching rules or methods, while the y-axis measures the corresponding metric in percentage terms. 
+
+### Section 1: Dispatching Rules vs. MakeSpan (Percentage)
+
+#### Metrics:
+1. **Confronto**: This appears to be a comparison of two metrics, likely related to dispatching rules.
+2. **Regole di Dispatching**: This refers to the rules governing dispatching processes.
+3. **MakeSpan**: This metric measures the span or range of dispatching rules.
+4. **Confronto Regale di Dispatching: MakeSpan (m)**: This is a comparison of the makespan for different dispatching rules.
+5. **Confronto Regale di Dispatching: Varianza Lead Time (m)**: This measures the variance in lead time associated with different dispatching rules.
+6. **Confronto Regale di Dispatching: Utilizzo Medio (m)**: This represents the average utilization of dispatching rules.
+
+#### Data Representation:
+- The first bar under "Confronto" shows a high percentage value for makespan, indicating that this metric is significant in terms of dispatching rules.
+- The second bar under "Regale di Dispatching" also shows a high percentage value for makespan, suggesting that the makespan is a crucial factor in determining the effectiveness or efficiency of these rules.
+- The third bar under "Confronto Regale di Dispatching: Varianza Lead Time (m)" indicates a moderate variance in lead time associated with different dispatching rules.
+- The fourth bar under "Confronto Regale di Dispatching: Utilizzo Medio (m)" shows the average utilization of these rules, which is relatively high compared to other metrics.
+
+### Section 2: Dispatching Rules vs. Variance Lead Time (Percentage)
+
+#### Metrics:
+1. **Confronto**: This appears to be a comparison of two metrics, likely related to dispatching rules.
+2. **Regale di Dispatching**: This refers to the rules governing dispatching processes.
+3. **Varianza Lead Time (m)**: This metric measures the variance in lead time associated with different dispatching rules.
+4. **Confronto Regale di Dispatching: Varianza Lead Time (m)**: This is a comparison of the variance in lead time for different dispatching rules.
+5. **Confronto Regale di Dispatching: Utilizzo Medio (m)**: This represents the average utilization of dispatching rules.
+
+#### Data Representation:
+- The first bar under "Confronto" shows a high percentage value for variance lead time, indicating that this metric is significant in terms of variability or unpredictability associated with different dispatching rules.
+- The second bar under "Regale di Dispatching" also shows a high percentage value for variance lead time, suggesting that the variance in lead time is a crucial factor in determining the effectiveness or efficiency of these rules.
+- The third bar under "Confronto Regale di Dispatching: Varianza Lead Time (m)" indicates a moderate variance in lead time associated with different dispatching rules.
+- The fourth bar under "Confronto Regale di Dispatching: Utilizzo Medio (m)" shows the average utilization of these rules, which is relatively high compared to other metrics.
+
+### Analysis and Description:
+The chart provides a comparative analysis of how different dispatching rules impact various aspects of dispatching processes. The makespan metric appears to be the most significant factor in terms of both effectiveness (as indicated by the high percentage values) and variability (as indicated by the high variance lead time). This suggests that while the rules themselves may be effective, there is a considerable amount of uncertainty or variability associated with their application.
+
+The average utilization metric also shows high percentages for all dispatching rules, indicating that these rules are being used to their fullest potential in terms of resource allocation and efficiency. This could imply that despite the variability in lead time, the overall effectiveness of the rules is still high.
+
+In summary, this bar chart highlights the importance of understanding both the effectiveness and variability of dispatching rules, as well as their impact on utilization metrics such as makespan, variance lead time, and average utilization.

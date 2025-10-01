@@ -1,0 +1,17 @@
+
+The image is a bar chart titled "Confronto Obiettivi vs Risultati Raggiunti." It compares three different categories: Consumo Energetico, Fermi Impianto, and Efficienza Produtta. The x-axis represents the categories, while the y-axis indicates the percentage of improvement or reduction in terms of "Raggiunto" (achieved) compared to a target value.
+
+The chart is divided into three sections, each representing one category:
+1. **Consumo Energetico**: This section shows two bars, one for the target and one for the achieved value. The target bar is colored orange, while the achieved bar is colored red. Both bars are positioned such that the target bar is higher than the achieved bar, indicating a shortfall in energy consumption compared to the target.
+2. **Fermi Impianto**: Similarly, this section also has two bars: one for the target and one for the achieved value. The target bar is orange, and the achieved bar is red. Both bars are positioned such that the target bar is higher than the achieved bar, indicating a shortfall in plant efficiency compared to the target.
+3. **Efficienza Produtta**: This section also has two bars: one for the target and one for the achieved value. The target bar is orange, and the achieved bar is red. Both bars are positioned such that the target bar is higher than the achieved bar, indicating a shortfall in productivity efficiency compared to the target.
+
+The chart uses a color gradient from darker shades of orange to lighter shades of red to visually distinguish between the target and achieved values for each category. The background of the chart is white, which helps in clearly distinguishing the bars.
+
+### Analysis:
+- **Consumo Energetico**: This category shows a significant shortfall in energy consumption compared to the target value. The orange bar (target) is much higher than the red bar (achieved), indicating that there is room for improvement in this area.
+- **Fermi Impianto**: Similarly, there is a notable shortfall in plant efficiency compared to the target value. Both bars are positioned such that the target bar is higher than the achieved bar, suggesting that efforts need to be made to enhance plant efficiency.
+- **Efficienza Produtta**: This category also shows a significant shortfall in productivity efficiency compared to the target value. The orange bar (target) is much higher than the red bar (achieved), indicating that improvements are needed in this area as well.
+
+### Conclusion:
+The chart effectively illustrates the discrepancies between the target and achieved values for three different categories, highlighting areas where efforts need to be made to improve efficiency and reduce energy consumption. This visual representation can help stakeholders identify key performance indicators (KPIs) that require attention and action to meet organizational goals more effectively.

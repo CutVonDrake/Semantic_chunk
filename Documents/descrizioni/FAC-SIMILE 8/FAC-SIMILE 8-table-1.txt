@@ -1,0 +1,38 @@
+
+The image is a table that outlines various financial goals and their corresponding bonus amounts. Here is a detailed description of the table:
+
+### Table Description
+
+**Table Title:** Obiettivo raggiunto
+
+**Columns:**
+1. **Obiettivo raggiunto** (Goal Achieved)
+2. **Bonus lordo (€)** (Bonus Amount in Euros)
+3. **Superamento del 75% di presenza in gare ufficiali** (Achievement of 75% attendance at official games)
+4. **10 gol realizzati in Serie A** (10 goals scored in Serie A)
+5. **20 gol realizzati in Serie A** (20 goals scored in Serie A)
+6. **Superamento del 75% di presenza in gare ufficiali** (Achievement of 75% attendance at official games)
+7. **100.000 euro** (100,000 Euros)
+8. **100.000 euro** (100,000 Euros)
+9. **Superamento del 75% di presenza in gare ufficiali** (Achievement of 75% attendance at official games)
+10. **100.000 euro** (100,000 Euros)
+
+### Analysis and Description:
+
+The table is structured to outline different financial goals related to football (soccer), specifically focusing on the achievement of certain milestones in Serie A, which is Italy's top professional soccer league. The bonus amounts are provided for each goal achieved, with a total bonus amount of 100,000 Euros.
+
+**Goal Achievements and Bonus Amounts:**
+- **10 goals scored in Serie A:**
+  - Bonus: 150,000 Euros
+  - This indicates that for scoring 10 goals in Serie A, the player receives a bonus of 150,000 Euros.
+
+- **20 goals scored in Serie A:**
+  - Bonus: 300,000 Euros
+  - For achieving 20 goals in Serie A, the player receives a bonus of 300,000 Euros.
+
+**Additional Information:**
+- **Superamento del 75% di presenza in gare ufficiali:** This translates to "Achievement of 75% attendance at official games." It implies that the player must have attended at least 75% of the official matches during a season. The bonus amounts are consistent for both goal achievements, suggesting that this criterion is applied equally regardless of the number of goals scored.
+- **100,000 euro:** This figure appears multiple times in the table, indicating it might be a cumulative or total bonus amount. It could represent the maximum bonus amount available to players who meet all criteria, including attending at least 75% of official games and scoring goals in Serie A.
+
+### Conclusion:
+The table provides clear guidelines for football players on how their performance can lead to financial rewards. By achieving specific milestones such as scoring a certain number of goals or attending a high percentage of official matches, players can accumulate bonuses totaling 100,000 Euros. This structure incentivizes both goal-scoring and attendance at games, ensuring that players are motivated to perform well in the league while also benefiting from financial rewards.

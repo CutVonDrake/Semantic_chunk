@@ -1,0 +1,30 @@
+
+The image is a scatter plot graph titled "Rendimento Atteso vs Rischio per Promo di Investimento." The x-axis represents the "Rischio Stimato" (Risk Estimated), ranging from 3 to 10, and the y-axis represents the "Rendimento Atteso" (Expected Return), also ranging from 4 to 10. 
+
+There are three distinct data points plotted on this graph:
+
+1. **Conservativo**: This point is located at the lower left corner of the plot, with a risk estimate of approximately 3 and an expected return of around 4. The point is marked with a green cross (x) and labeled as "Conservativo."
+
+2. **Moderato**: Positioned slightly above and to the right of the Conservativo point, this data point has a higher risk estimate of about 5 and an expected return of approximately 6. It is also marked with a green cross (x) and labeled as "Moderato."
+
+3. **Aggressive**: This point is located at the upper right corner of the plot, with a risk estimate of around 10 and an expected return of about 9. The point is marked with a red 'X' and labeled as "Aggressive."
+
+The grid lines in the background help to visually align the data points along both axes. The title of the graph provides context that this plot is comparing expected returns against risk estimates for investment promotions, possibly indicating different strategies or outcomes based on these factors.
+
+### Analysis:
+
+1. **Risk vs Return**:
+   - The scatter plot illustrates a clear relationship between risk and return. As the risk increases, so does the expected return. This suggests that higher-risk investments typically offer higher returns.
+
+2. **Data Points Distribution**:
+   - The Conservativo strategy shows lower risk (3) but lower expected return (4).
+   - The Moderato strategy has a moderate risk (5) and an intermediate expected return (6).
+   - The Aggressive strategy has the highest risk (10) and the highest expected return (9), indicating it is likely to offer the most substantial returns but also carries higher risks.
+
+3. **Comparison**:
+   - The Aggressive strategy stands out as the most favorable option based on both risk and return, offering the highest potential return for a given level of risk.
+   - Conversely, the Conservativo strategy is the least favorable due to its lower expected returns despite higher risks.
+
+### Conclusion:
+
+This scatter plot effectively demonstrates how different investment strategies can be evaluated based on their associated risks and returns. The Aggressive strategy appears to be the most attractive option for investors seeking high returns, while the Conservativo strategy is less appealing due to its lower expected returns despite higher risks. This visualization helps in understanding the trade-offs between risk and return in investment decisions.
