@@ -9,9 +9,13 @@ PROGETTO DI OTTIMIZZAZIONE DEL DISPATCHING PRODUTTIVO
 
 Implementazione di un framework dinamico per il dispatching di ordini in ambiente produttivo tessile
 
-FilTess Industria Tessile S.p.A. Partner Tecnico:
+FilTess Industria Tessile S.p.A.
 
-OptiWare Consulting S.r.l. [[TABLE-1]] START
+Partner Tecnico:
+
+OptiWare Consulting S.r.l.
+
+[[TABLE-1]] START
 
 The image displays a table of contents for a document or report. It is structured into several sections with titles and subtitles that outline various aspects of the project or study being discussed. Here is a detailed description of each section:
 
@@ -1523,7 +1527,15 @@ The image displays a table of contents for a document or report. It is structure
 
 Introduzione
 
-Il  presente  documento  rappresenta  il  deliverable  tecnico  finale  relativo  al  progetto  di ottimizzazione delle attività di dispatching presso gli impianti produttivi dell'azienda [Nome Azienda Tessile], operante nel settore della produzione tessile industriale. Il progetto è stato commissionato con l'obiettivo di analizzare, ridisegnare e ottimizzare il sistema di assegnazione e sequenziamento degli ordini di lavorazione, in modo da migliorare l'efficienza globale del sistema produttivo e ridurre i tempi di attraversamento dei lotti. La crescente domanda di flessibilità produttiva e l'esigenza di mantenere alti livelli di qualità e puntualità  nelle  consegne  hanno  evidenziato  la  necessità  di  un  intervento  strutturato  sul sistema di gestione operativa delle risorse di produzione. In questo contesto, il dispatching -ovvero il processo decisionale che stabilisce quali ordini vanno lavorati, in quale sequenza e su quali macchine -rappresenta un punto critico su cui agire per ottenere benefici concreti in termini di produttività. L'attività è stata svolta da [Nome Società di Consulenza], in qualità di partner consulenziale, con  il  coinvolgimento  diretto  del  team  tecnico  e  produttivo  di  [Nome  Azienda  Tessile]. La metodologia  adottata  ha  previsto  un  approccio  basato  sull'analisi  dei dati  storici,  sulla modellazione dei flussi produttivi e sulla validazione di scenari simulativi, al fine di identificare strategie di dispatching più efficaci e coerenti con i vincoli reali della produzione tessile. Il  documento  fornisce  una  descrizione  dettagliata  del  contesto  iniziale,  degli  obiettivi perseguiti, delle soluzioni sviluppate, dei risultati ottenuti in termini quantitativi e qualitativi, e di un'analisi dei costi sostenuti in relazione ai benefici gene rati. Le sezioni seguenti seguiranno una struttura coerente con gli standard di rendicontazione tecnica e saranno supportate da tabelle, grafici e indicatori di performance  per  facilitare la lettura e la valutazione dell'intervento. Descrizione del Problema e Obiettivi Tecnici
+Il  presente  documento  rappresenta  il  deliverable  tecnico  finale  relativo  al  progetto  di ottimizzazione delle attività di dispatching presso gli impianti produttivi dell'azienda [Nome Azienda Tessile], operante nel settore della produzione tessile industriale. Il progetto è stato commissionato con l'obiettivo di analizzare, ridisegnare e ottimizzare il sistema di assegnazione e sequenziamento degli ordini di lavorazione, in modo da migliorare l'efficienza globale del sistema produttivo e ridurre i tempi di attraversamento dei lotti.
+
+La crescente domanda di flessibilità produttiva e l'esigenza di mantenere alti livelli di qualità e puntualità  nelle  consegne  hanno  evidenziato  la  necessità  di  un  intervento  strutturato  sul sistema di gestione operativa delle risorse di produzione. In questo contesto, il dispatching -ovvero il processo decisionale che stabilisce quali ordini vanno lavorati, in quale sequenza e su quali macchine -rappresenta un punto critico su cui agire per ottenere benefici concreti in termini di produttività.
+
+L'attività è stata svolta da [Nome Società di Consulenza], in qualità di partner consulenziale, con  il  coinvolgimento  diretto  del  team  tecnico  e  produttivo  di  [Nome  Azienda  Tessile].  La metodologia  adottata  ha  previsto  un  approccio  basato  sull'analisi  dei dati  storici,  sulla modellazione dei flussi produttivi e sulla validazione di scenari simulativi, al fine di identificare strategie di dispatching più efficaci e coerenti con i vincoli reali della produzione tessile.
+
+Il  documento  fornisce  una  descrizione  dettagliata  del  contesto  iniziale,  degli  obiettivi perseguiti, delle soluzioni sviluppate, dei risultati ottenuti in termini quantitativi e qualitativi, e di un'analisi dei costi sostenuti in relazione ai benefici gene rati. Le sezioni seguenti seguiranno una struttura coerente con gli standard di rendicontazione tecnica e saranno supportate da tabelle, grafici e indicatori di performance  per  facilitare la lettura e la valutazione dell'intervento.
+
+Descrizione del Problema e Obiettivi Tecnici
 
 1. Contesto operativo e criticità iniziali
 
@@ -1537,7 +1549,9 @@ Il  sistema  produttivo  di  [Nome  Azienda  Tessile]  è  organizzato  su  più
 
 ● Utilizzo non bilanciato delle risorse disponibili;
 
-● Difficoltà nel rispondere a variazioni impreviste nella domanda o nella disponibilità di macchinari. 2. Obiettivi tecnici del progetto
+● Difficoltà nel rispondere a variazioni impreviste nella domanda o nella disponibilità di macchinari.
+
+2. Obiettivi tecnici del progetto
 
 Alla luce delle criticità osservate, il progetto ha definito i seguenti obiettivi tecnici principali:
 
@@ -1551,9 +1565,11 @@ Alla luce delle criticità osservate, il progetto ha definito i seguenti obietti
 
 ● Migliorare l'equilibrio del carico di lavoro tra le diverse linee di produzione;
 
-● Abilitare la simulazione di scenari alternativi per supportare la pianificazione a medio termine.
+● Abilitare la simulazione di scenari alternativi per supportare la pianificazione a medio
 
 ### Chunk 2
+
+termine.
 
 3. Mappa sintetica degli obiettivi
 
@@ -1631,11 +1647,17 @@ The table appears to be discussing the management of resources within a system t
 The table provides a structured approach to managing resources within a system, focusing on balancing loads across parallel lines and ensuring real-time monitoring to address any discrepancies. This methodology is essential for maintaining optimal performance and efficiency in complex systems that involve multiple paths or channels of operation.
 [[TABLE-3]] END
 
-Le prossime  sezioni descriveranno l'approccio metodologico adottato e le soluzioni algoritmiche sperimentate per il raggiungimento di tali obiettivi. Approccio Metodologico e Soluzioni Sviluppate
+Le prossime  sezioni descriveranno l'approccio metodologico adottato e le soluzioni algoritmiche sperimentate per il raggiungimento di tali obiettivi.
+
+Approccio Metodologico e Soluzioni Sviluppate
 
 1. Metodologia adottata
 
-Il progetto è stato strutturato secondo una metodologia incrementale, basata sul ciclo 'analisi -modellazione -simulazione -validazione'. In una prima fase è stata effettuata una raccolta dati quantitativa e qualitativa, attraverso l'estrazione di log d i produzione dal MES aziendale, interviste con i responsabili di reparto e osservazioni dirette in linea. Sono stati classificati oltre 1200 lotti produttivi, registrando per ciascuno caratteristiche come tipo di tessuto, lavorazione richiesta, durata stimata, macchinari abilitati, e sequenze effettivamente eseguite. In seguito, è stato realizzato un modello descrittivo del processo di dispatching, implementato in ambiente Python tramite una libreria custom basata su NetworkX e SimPy. Questo modello ha permesso di riprodurre digitalmente il comportamento delle linee, con possibilità di iniettare regole alternative di assegnazione e verificare i risultati tramite simulazione discreta. 2. Regole di dispatching sperimentate
+Il progetto è stato strutturato secondo una metodologia incrementale, basata sul ciclo 'analisi -modellazione -simulazione -validazione'. In una prima fase è stata effettuata una raccolta dati quantitativa e qualitativa, attraverso l'estrazione di log d i produzione dal MES aziendale, interviste con i responsabili di reparto e osservazioni dirette in linea. Sono stati classificati oltre 1200 lotti produttivi, registrando per ciascuno caratteristiche come tipo di tessuto, lavorazione richiesta, durata stimata, macchinari abilitati, e sequenze effettivamente eseguite.
+
+In seguito, è stato realizzato un modello descrittivo del processo di dispatching, implementato in ambiente Python tramite una libreria custom basata su NetworkX e SimPy. Questo modello ha permesso di riprodurre digitalmente il comportamento delle linee, con possibilità di iniettare regole alternative di assegnazione e verificare i risultati tramite simulazione discreta.
+
+2. Regole di dispatching sperimentate
 
 Sono state testate sei regole di dispatching, suddivise tra approcci classici (statici) e avanzati (dinamici). Nello specifico:
 
@@ -1651,7 +1673,9 @@ Sono state testate sei regole di dispatching, suddivise tra approcci classici (s
 
 ● RuleMix (approccio composito con ponderazione dinamica su più metriche)
 
-Ogni regola è stata testata su 4 scenari di carico (basso, medio, alto, perturbato) e confrontata con i dati reali di produzione. 3. Soluzioni selezionate e architettura finale
+Ogni regola è stata testata su 4 scenari di carico (basso, medio, alto, perturbato) e confrontata con i dati reali di produzione.
+
+3. Soluzioni selezionate e architettura finale
 
 L'analisi  dei  risultati  ha  mostrato  che  l'approccio  RuleMix  ha  garantito,  in  media,  i  migliori risultati in termini di riduzione dei tempi medi e della varianza nei lead time. È stato quindi
 
@@ -1663,7 +1687,11 @@ definito  un  framework  di  dispatching  dinamico  che,  a  ogni  ciclo  di  de
 
 ● Cambi formato richiesti sulla macchina target;
 
-● Priorità commerciale dell'ordine. I punteggi vengono aggiornati ogni 15 minuti e la sequenza ottimale è generata in tempo reale tramite  una  funzione  obiettivo  multicriterio. L'integrazione  con  il  sistema  MES  è  avvenuta attraverso  l'export  automatico  delle  sequenze  in  formato  XML,  con  poss ibilità  di  override manuale da parte dell'operatore. Di seguito si riporta una tabella comparativa delle performance ottenute con le varie regole:
+● Priorità commerciale dell'ordine.
+
+I punteggi vengono aggiornati ogni 15 minuti e la sequenza ottimale è generata in tempo reale tramite  una  funzione  obiettivo  multicriterio.  L'integrazione  con  il  sistema  MES  è  avvenuta attraverso  l'export  automatico  delle  sequenze  in  formato  XML,  con  poss ibilità  di  override manuale da parte dell'operatore.
+
+Di seguito si riporta una tabella comparativa delle performance ottenute con le varie regole:
 
 [[TABLE-4]] START
 
@@ -1729,11 +1757,15 @@ The table is structured with two columns for each method (Method and Dispatch Ti
 The table provides a comparative analysis of various dispatching methods based on their dispatch time, utilization percentage, and median value. FIFO appears to be the most efficient method in terms of dispatching speed, while COVERT is highly efficient in terms of resource allocation. The choice between these methods would depend on specific requirements such as speed, efficiency, and stability.
 [[TABLE-4]] END
 
-La  soluzione  proposta  è  stata  validata  anche  tramite  stress  test  su  flussi  perturbati, confermando la maggiore robustezza dell'approccio dinamico rispetto ai metodi statici. Risultati Raggiunti e Analisi dei Benefici
+La  soluzione  proposta  è  stata  validata  anche  tramite  stress  test  su  flussi  perturbati, confermando la maggiore robustezza dell'approccio dinamico rispetto ai metodi statici.
+
+Risultati Raggiunti e Analisi dei Benefici
 
 1. Valutazione delle Performance
 
-A seguito della fase di validazione, il nuovo sistema di dispatching dinamico basato su RuleMix è  stato  progressivamente  introdotto  nella  pianificazione  quotidiana  dell'impianto  tessile. L'adozione di questa soluzione ha comportato un miglioramento misurab ile  delle  principali metriche  operative,  monitorate  per  10  settimane  consecutive  a  partire  dalla  messa  in esercizio. I principali benefici osservati sono stati:
+A seguito della fase di validazione, il nuovo sistema di dispatching dinamico basato su RuleMix è  stato  progressivamente  introdotto  nella  pianificazione  quotidiana  dell'impianto  tessile. L'adozione di questa soluzione ha comportato un miglioramento misurab ile  delle  principali metriche  operative,  monitorate  per  10  settimane  consecutive  a  partire  dalla  messa  in esercizio.
+
+I principali benefici osservati sono stati:
 
 ● Riduzione del makespan medio giornaliero da 192 a 163 minuti (-15,1%);
 
@@ -1743,7 +1775,11 @@ A seguito della fase di validazione, il nuovo sistema di dispatching dinamico ba
 
 ● Diminuzione  della  varianza  nei  lead  time  di  produzione  (indicatore  di  stabilità  del flusso);
 
-● Incremento della puntualità nelle consegne (ontime delivery) dal 78% all'89%. Questi dati sono stati raccolti tramite un modulo di monitoraggio integrato al MES e validati dal team qualità. 2. Analisi dei Benefici Qualitativi
+● Incremento della puntualità nelle consegne (ontime delivery) dal 78% all'89%.
+
+Questi dati sono stati raccolti tramite un modulo di monitoraggio integrato al MES e validati dal team qualità.
+
+2. Analisi dei Benefici Qualitativi
 
 Oltre ai miglioramenti quantitativi, il nuovo sistema ha prodotto benefici qualitativi rilevanti:
 
@@ -1753,7 +1789,9 @@ Oltre ai miglioramenti quantitativi, il nuovo sistema ha prodotto benefici quali
 
 ● Miglior collaborazione tra pianificazione centrale e operatori di linea, attraverso logiche più comprensibili e adattive;
 
-● Capacità di risposta più rapida in caso di guasti o riassegnazione urgente di ordini ad altre macchine. di Dispatching: Makespan
+● Capacità di risposta più rapida in caso di guasti o riassegnazione urgente di ordini ad altre macchine.
+
+di Dispatching: Makespan
 
 [[IMAGE-2]] START
 
@@ -1798,7 +1836,9 @@ The average utilization metric also shows high percentages for all dispatching r
 In summary, this bar chart highlights the importance of understanding both the effectiveness and variability of dispatching rules, as well as their impact on utilization metrics such as makespan, variance lead time, and average utilization.
 [[IMAGE-2]] END
 
-Questi elementi hanno favorito un generale miglioramento della governance della produzione e della cultura del dato tra i team coinvolti. 3. Confronto con Obiettivi Iniziali
+Questi elementi hanno favorito un generale miglioramento della governance della produzione e della cultura del dato tra i team coinvolti.
+
+3. Confronto con Obiettivi Iniziali
 
 La tabella seguente mostra un confronto sintetico tra i target definiti in fase progettuale e i risultati effettivamente raggiunti:
 
@@ -1895,7 +1935,9 @@ The table appears to be demonstrating a process of incremental increase. Each nu
 The table effectively illustrates how each numerical value in the first column is modified through an incremental increase of 10% and then another 11%. This could be useful for understanding compounding effects, growth rates, or other mathematical operations where values are multiplied by a percentage.
 [[TABLE-6]] END
 
-In  sintesi,  i  risultati  ottenuti  hanno  soddisfatto  e  in  alcuni  casi  superato  le  attese,  con scostamenti limitati e pienamente giustificabili alla luce delle dinamiche reali dell'impianto. Makespan
+In  sintesi,  i  risultati  ottenuti  hanno  soddisfatto  e  in  alcuni  casi  superato  le  attese,  con scostamenti limitati e pienamente giustificabili alla luce delle dinamiche reali dell'impianto.
+
+Makespan
 
 [[IMAGE-3]] START
 
@@ -2045,7 +2087,9 @@ Applicando i valori raccolti:
 
 ` ROI = (65.500 - 50.000) / 50.000 = 31% `
 
-Il  tempo  stimato  per  raggiungere  il  break-even  è  pari  a 9,2  mesi ,  tenendo  conto  di  una distribuzione progressiva dei benefici a partire dal terzo mese post-deployment. [[IMAGE-4]] START
+Il  tempo  stimato  per  raggiungere  il  break-even  è  pari  a 9,2  mesi ,  tenendo  conto  di  una distribuzione progressiva dei benefici a partire dal terzo mese post-deployment.
+
+[[IMAGE-4]] START
 
 The image is a line graph titled "Timeline ROI e Break-even." It plots three different metrics against a timeline labeled "Mese dopo deployment" (Month after deployment). The x-axis represents the months following the deployment, ranging from 1 to 12. The y-axis represents the values in euros, with increments of 5000 euros up to 70000 euros.
 
@@ -2083,21 +2127,35 @@ The graph provides a clear visual representation of how different metrics (Benef
 The graph effectively illustrates how different metrics evolve over time in relation to deployment. The exponential growth of Benefici Cumulati suggests an increasingly favorable situation, while the constant break-even point indicates financial stability and no risk of losses. In contrast, the negative cumulative benefits for Mese Break-even suggest a deteriorating financial position that could lead to losses if not addressed. This visualization is useful for understanding the dynamics of ROI and break-even analysis in deployment scenarios.
 [[IMAGE-4]] END
 
-L'analisi economica  del  progetto  non  solo  ha confermato  la sostenibilità finanziaria dell'intervento, ma ha anche evidenziato un ampio margine di ritorno nel medio periodo. Il raggiungimento del  break-even  in meno  di  dieci  mesi  rappresenta  un  indicatore  chiave  di successo, soprattutto in un settore manifatturiero come  quello tessile, storicamente caratterizzato da margini operativi compressi e cicli produttivi soggetti a forte stagionalità. Inoltre, l'approccio incrementale e data -driven adottato si è dimostrato efficace nel ridurre il rischio di interruzioni operative, favorendo un processo di adozione graduale ma strutturato. I miglioramenti  rilevati,  sia  a  livello  operativo  che  qualitativo,  hanno  superato  le  aspettative iniziali e offerto uno stimolo per un'estensione futura del modello ad altre aree della supply chain aziendale. In prospettiva, il progetto può essere considerato una best practice di riferimento per interventi futuri orientati alla digitalizzazione, alla riduzione degli sprechi e all'agilità decisionale nella pianificazione. Il framework sviluppato è tecnicamente scalabile, economicamente sostenibile e perfettamente allineato con gli obiettivi strategici di competitività e resilienza a lungo termine dell'azienda. Riferimenti
+L'analisi economica  del  progetto  non  solo  ha confermato  la sostenibilità finanziaria dell'intervento, ma ha anche evidenziato un ampio margine di ritorno nel medio periodo. Il raggiungimento del  break-even  in meno  di  dieci  mesi  rappresenta  un  indicatore  chiave  di successo, soprattutto in un settore manifatturiero come  quello tessile, storicamente caratterizzato da margini operativi compressi e cicli produttivi soggetti a forte stagionalità.
 
-1. Herrmann, J.W., & Lee, H. (2021). 'Dispatching Rules in Manufacturing Systems: A Review  of  Advances  and  Industrial  Practices.' International  Journal  of  Production Research , 59(10), 3052 -3071.
+Inoltre, l'approccio incrementale e data -driven adottato si è dimostrato efficace nel ridurre il rischio di interruzioni operative, favorendo un processo di adozione graduale ma strutturato. I miglioramenti  rilevati,  sia  a  livello  operativo  che  qualitativo,  hanno  superato  le  aspettative iniziali e offerto uno stimolo per un'estensione futura del modello ad altre aree della supply chain aziendale.
+
+In prospettiva, il progetto può essere considerato una best practice di riferimento per interventi futuri orientati alla digitalizzazione, alla riduzione degli sprechi e all'agilità decisionale nella pianificazione. Il framework sviluppato è tecnicamente scalabile, economicamente sostenibile e perfettamente allineato con gli obiettivi strategici di competitività e resilienza a lungo termine dell'azienda.
+
+Riferimenti
+
+1. Herrmann, J.W., & Lee, H. (2021). 'Dispatching Rules in Manufacturing Systems: A Review  of  Advances  and  Industrial  Practices.' International  Journal  of  Production Re
 
 ### Chunk 3
 
-2. Slack, N., Brandon-Jones, A., & Johnston, R. (2022). Operations Management (10th ed.). Pearson Education. 3. Siemens Digital Industries (2023). 'Advanced Scheduling and Dispatching: A Smart Approach to Improve Shop Floor Execution.' Whitepaper.
+search , 59(10), 3052 -3071.
+
+2. Slack, N., Brandon-Jones, A., & Johnston, R. (2022). Operations Management (10th ed.). Pearson Education.
+
+3. Siemens Digital Industries (2023). 'Advanced Scheduling and Dispatching: A Smart Approach to Improve Sho
 
 ### Chunk 4
 
-4. Geng, Z., & Chu, C. (2020). 'Multi -criteria dynamic dispatching in hybrid flow shop with realtime disturbances.' Computers & Industrial Engineering , 142, 106344.
+p Floor Execution.' Whitepaper.
+
+4. Geng, Z., & Chu, C. (2020). 'Multi -criteria dynamic dispatching in hybrid flow shop with realtime disturbances.' Computers & Indu
 
 ### Chunk 5
 
+strial Engineering , 142, 106344.
+
 5. UNI EN ISO 224002:2014. 'Indicatori di prestazione per la gestione della produzione.'
 
-6. IBM  Supply  Chain  Solutions  (2022). 'From  Static  Planning  to  Smart  Scheduling: Enabling Agile Operations in Manufacturing.' Technical Brief.
+6. IBM  Supply  Chain  Solutions  (2022).  'From  Static  Planning  to  Smart  Scheduling: Enabling Agile Operations
 
