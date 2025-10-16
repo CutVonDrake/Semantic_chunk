@@ -1,34 +1,66 @@
 #!/usr/bin/env python3
-# run_agents_local.py
 import os
 import re
 from dotenv import load_dotenv
 load_dotenv()
 
-# Rimuovi eventuali variabili MISTRAL_API_KEY vuote per evitare header vuoti
+# Pulizia chiavi vuote
 if "MISTRAL_API_KEY" in os.environ and os.environ["MISTRAL_API_KEY"].strip() == "":
     os.environ.pop("MISTRAL_API_KEY", None)
 
-# Nome modello Ollama esatto (usa il nome che hai)
 LOCAL_LLM = os.environ.get("LOCAL_LLM", "granite4:latest")
 
-# Import modello Ollama (langchain_ollama)
 from langchain_ollama import ChatOllama
-
-# LangGraph / supervisor imports
 from langgraph.prebuilt import create_react_agent
 from langgraph_supervisor import create_supervisor
 from langgraph.checkpoint.memory import InMemorySaver
+import ollama
 
-# Istanza del modello locale (Ollama) con parametri per output conciso
+# --- Tool di analisi immagini ---
+DEFAULT_IMAGE = "/storage/data_4T_b/andreacutuli/PROVA/images/test/burn_car.png"
+
+def analyze_image(image_path: str = None) -> str:
+    """Analizza un'immagine e rileva eventuale violenza"""
+    image_path = image_path or DEFAULT_IMAGE
+    model_name = "granite4-vision"  # o LOCAL_LLM se vuoi
+
+    prompt = (
+        "You are an image safety inspector. Analyze the image carefully.\n\n"
+        "1. Describe in detail what is visible in the image (people, objects, actions, scene).\n"
+        "2. Check for guns, knives, blood, physical aggression, hostages, self-harm.\n"
+        "End with exactly one line: 'Warning: VIOLENCE' if any violent element is present, "
+        "otherwise 'No violence detected'."
+    )
+
+    with open(image_path, "rb") as f:
+        image_bytes = f.read()
+
+    client = ollama.Client()
+    resp = client.generate(model=model_name, prompt=prompt, images=[image_bytes])
+
+    def parse_text(resp):
+        for attr in ("text", "content", "output"):
+            val = getattr(resp, attr, None)
+            if val:
+                return str(val).strip()
+        choices = getattr(resp, "choices", None)
+        if choices:
+            first = choices[0]
+            if isinstance(first, dict):
+                return first.get("text") or first.get("content") or ""
+            return getattr(first, "text", None) or getattr(first, "content", None) or ""
+        return str(resp).strip()
+
+    return parse_text(resp)
+
+# --- Modello ---
 model = ChatOllama(model=LOCAL_LLM, temperature=0, max_tokens=150)
 
-# Definisci il tool di Morty
+# Tool matematico di Morty
 def add(a: int, b: int) -> int:
-    """Add two numbers"""
     return a + b
 
-# Crea agenti
+# --- Agenti ---
 morty_agent = create_react_agent(
     model=model,
     tools=[add],
@@ -38,30 +70,34 @@ morty_agent = create_react_agent(
 
 meeseeks_agent = create_react_agent(
     model=model,
-    tools=[],
-    prompt="You are Mr. Meeseeks! You always help, especially with motivation or explanations. After helping, return to Rick.",
+    tools=[analyze_image],
+    prompt=(
+        "You are Mr. Meeseeks! You help with motivation, explanations, "
+        "and image analysis if asked. After helping, return to Rick."
+    ),
     name="MrMeeseeks",
 )
 
-# Crea Rick come supervisore
+# --- Supervisore Rick ---
 rick_agent = create_supervisor(
     [morty_agent, meeseeks_agent],
     model=model,
     prompt=(
         "You are Rick Sanchez. You're the boss. You get all user requests.\n"
-        "Decide who to send things to: Morty if it's a math problem, Meeseeks if it's about help or encouragement.\n"
+        "Decide who to send things to:\n"
+        "- Morty if it's a math problem\n"
+        "- Meeseeks if it's about help, motivation, or image analysis\n"
         "After they answer, return to the user with a sarcastic comment or summary."
     ),
     supervisor_name="Rick"
 )
 
-# Setup checkpointing
+# --- Checkpoint ---
 checkpointer = InMemorySaver()
 app = rick_agent.compile(checkpointer=checkpointer)
 
-
-# Cleaner print: show only routing events and agent textual outputs
-TRANSFER_PATTERN = re.compile(r'\[\s*\{.*?\}\s*\]', re.DOTALL)  # matches [{"name":...}] blocks
+# --- Cleaner output ---
+TRANSFER_PATTERN = re.compile(r'\[\s*\{.*?\}\s*\]', re.DOTALL)
 
 def extract_user_facing_text(ai_content: str) -> str:
     if not isinstance(ai_content, str):
@@ -77,25 +113,15 @@ def extract_user_facing_text(ai_content: str) -> str:
             filtered.append(ln)
     return "\n".join(filtered)
 
-
 def print_messages(turn: dict):
-    """
-    Expected 'turn' structure: {'messages': [HumanMessage(...), AIMessage(...), ...]}
-    Print minimal trace:
-      - routing hints (Rick -> Morty / Rick -> MrMeeseeks) when detected
-      - lines of user-facing text prefixed by agent name
-    """
     msgs = turn.get("messages", [])
     for m in msgs:
-        # guard for objects with attributes or plain dicts
         content = getattr(m, "content", None) or (m.get("content") if isinstance(m, dict) else None)
         name = getattr(m, "name", None) or (m.get("name") if isinstance(m, dict) else None) or getattr(m, "model", None) or "Agent"
         role = getattr(m, "role", None) or (m.get("role") if isinstance(m, dict) else None) or ""
-        # skip human messages
         if isinstance(role, str) and role.lower().startswith("human"):
             continue
         raw = content if isinstance(content, str) else str(content)
-        # routing hints
         lowered = raw.lower()
         if "transfer_to_morty" in lowered or "morty:" in lowered:
             print("Rick -> Morty")
@@ -107,9 +133,7 @@ def print_messages(turn: dict):
         for line in cleaned.splitlines():
             print(f"{name}: {line}")
 
-
-
-# Funzione per interagire
+# --- Funzione per interazione ---
 def run_interaction(user_input, config=None):
     if config is None:
         config = {"configurable": {"thread_id": "default-thread"}}
@@ -117,13 +141,12 @@ def run_interaction(user_input, config=None):
     print_messages(turn)
     return turn, config
 
+# --- Esempi ---
 if __name__ == "__main__":
-    # Primo thread: solo matematica
     config_math = {"configurable": {"thread_id": "math-thread"}}
     run_interaction("quanto fa 3 + 7?", config_math)
     run_interaction("e ora 10 + 4?", config_math)
 
-    # Secondo thread: motivazione
     config_motivation = {"configurable": {"thread_id": "motivation-thread"}}
     run_interaction("dammi una frase motivante", config_motivation)
-
+    run_interaction(f"analizza immagine {DEFAULT_IMAGE}", config_motivation)
